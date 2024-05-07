@@ -1,0 +1,1 @@
+Calculate sum and product of a list of numbers
