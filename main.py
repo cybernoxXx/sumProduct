@@ -1,23 +1,24 @@
 def calculateSum(numbers):
-
-    sum = 0
+    # Using result and not sum because sum is already a function in python
+    result = 0
 
     if len(numbers) == 0:
         return 0
     else:
         for element in numbers:
-            sum = sum + element
-    return sum
+            result = result + element
+    return result
 
 def calculateProduct(numbers):
-    product = 1
+    # Product is not a function in python
+    result = 1
 
     if len(numbers) == 0:
         return 1
     else:
         for element in numbers:
-            product = product * element
-    return product
+            result = result * element
+    return result
 
 
 
